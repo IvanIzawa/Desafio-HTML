@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <style>
+        button{
+            display: block;
+            margin-top: 15px;
+        }
+
+        textarea{
+            display: block;
+            margin-bottom: 15px;
+        }
+
+        p{
+            font-size: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+        <fieldset>
+            <legend>Entre em contato</legend>
+
+            <p><strong>Assunto:</strong> <select name="Suport" id="Suport"><option value="Suporte">Suporte</option></select></p>
+            <h3>
+                Nome Completo:
+            </h3>
+            <input type="text" name="Name" placeholder="Your name" required>
+            <h3>
+                E-mail:
+            </h3>
+            <input type="text" name="Email" placeholder="Your E-mail" required>
+            <h3>
+                Mensagem:
+            </h3>
+            <textarea name="freeform" id="box-messenge" cols="30" rows="10"></textarea>
+            <input id="check" type="checkbox" value="check"><label for="check">Aceito receber novidades por e-mail</label>
+            <button>Enviar</button>
+        </fieldset>
+<hr>
+
+<footer>
+    <p>Desafio HTML da Rocketseat</p>
+</footer>
+</body>
+</html>

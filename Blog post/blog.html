@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+
+    <style>
+        *{
+            box-sizing: border-box;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        header{
+            display: flex;
+        }
+
+        .bar{
+            display: inline-flex;
+            align-items: center;
+            align-self: center;
+            justify-content: space-around;
+        }
+
+        .option{
+            display: inline-flex;
+            align-items: center;
+            align-self: right;
+            justify-content: space-between;
+            grid-area: auto;
+        }
+
+        .userimage{
+            width: 150px;
+            margin: 0px 15px;
+        }
+
+        img{
+            width: 400px;
+            margin: 0px 15px;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <main class="menu">
+        <header class="top-bar">
+            <div class="bar">
+                <div class="title">
+                    <h1><strong>My Post</strong></h1>
+                </div>
+                <div class="options">
+                    <a href="">Home</a><a href="">Sobre</a><a href="">Contato</a>
+                </div>
+            </div>
+        </header>
+    </main>
+
+    <section>
+        <article>
+            <h2><strong>Title</strong></h2>
+            <img src="http://source.unsplash.com/random" alt="Aqui tem uma imagem">
+            <q>pode isso cara?</q>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita mollitia quis commodi autem cum molestias odit <br>
+            vero minus reprehenderit earum voluptatum laudantium quae similique excepturi dolor, fuga ab unde odio.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita mollitia quis commodi autem cum molestias odit <br>
+            vero minus reprehenderit earum voluptatum laudantium quae similique excepturi dolor, fuga ab unde odio. <br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita mollitia quis commodi autem cum molestias odit <br>
+            vero minus reprehenderit earum voluptatum laudantium quae similique excepturi dolor, fuga ab unde odio.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita mollitia quis commodi autem cum molestias odit <br>
+            vero minus reprehenderit earum voluptatum laudantium quae similique excepturi dolor, fuga ab unde odio.</p>
+
+            <hr>
+            <aside>
+                <p>21/02/2023</p>
+                <img src="https://www.maxieduca.com.br/blog/wp-content/uploads/2016/12/002-anonimo.jpg" alt="autor image" class="userimage">
+                <p><strong>NoneUser</strong></p>
+                <p>Uma imagem aleatoria de um autor desconhecido</p>
+            </aside>
+        </article>
+    </section>
+
+    <footer>
+        <p>Desafio HTML da Rocketseat</p>
+    </footer>
+</body>
+</html>
